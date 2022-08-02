@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(#eee, 1);
+  background: #7F00FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 4rem;
+}
+
+li {
+  margin: 1.5rem 0rem;
+  list-style-type: none;
+  font-size: 3rem;
+}
+
+.yellow {
+  color: rgba(#ffc600, 1);
+  font-weight: 500;
+}
+
+ul {
+   text-align: right;
+}
